@@ -1,2 +1,3 @@
-# ACLLib-Test
-ACLLib-Test
+# ACLlib_game_Bird
+  转行C语言初学者根据浙江大学翁恺老师C语言进阶教程，使用ACLLib库写的一个简单粗糙版小游戏，仅用于练习。
+  欢迎提出各种建议！

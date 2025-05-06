@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20.0)
-project(ACLlibDemo)
+project(ACLlib_game_Bird)
 set(CMAKE_CXX_STANDARD 11)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
@@ -9,8 +9,8 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LIST)
 
 add_executable(
-    ACLlibDemo
+    ACLlib_game_Bird
     ${SRC_LIST}
 )
 
-target_link_libraries(ACLlibDemo Msimg32 Winmm)
+target_link_libraries(ACLlib_game_Bird Msimg32 Winmm)
